@@ -1,0 +1,9 @@
+.payment-container{
+    margin: 50px;
+    padding: 20px 35px;
+    border: solid 1px;
+}
+
+.form-container{
+    display: flex;
+}

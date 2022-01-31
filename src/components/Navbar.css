@@ -1,0 +1,32 @@
+h1{
+    font-size: 30pt;
+    color: white;
+}
+
+.nav-container{
+    background-color: rgb(26, 26, 26);
+    padding: 0 2rem;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-items{
+    display: flex;
+    list-style: none;
+    color: white;
+}
+
+.nav-items li{
+    font-size: 16pt;
+    padding: 0px 1rem;
+}
+
+.nav-items a:hover{
+    background-color: seagreen;
+    border-radius: 10px;
+    padding: 8px;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
