@@ -5,7 +5,7 @@ h1{
 
 .nav-container{
     background-color: rgb(26, 26, 26);
-    padding: 0 2rem;
+    padding: 0 3rem;
     display:flex;
     align-items: center;
     justify-content: space-between;
@@ -19,14 +19,18 @@ h1{
 
 .nav-items li{
     font-size: 16pt;
-    padding: 0px 1rem;
+    padding: 0px 2rem;
+}
+
+.nav-items a{
+    padding: 8px;
+    border-radius: 30px;
+    transition: 0.5s;
 }
 
 .nav-items a:hover{
     background-color: seagreen;
-    border-radius: 10px;
     padding: 8px;
     cursor: pointer;
     color: white;
-    transition: 0.3s ease-in-out;
 }
